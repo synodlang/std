@@ -19,6 +19,6 @@ The catalog is normative: `std/README.md` in [dsl](https://github.com/synodlang/
 
 The sources are vendored into the compiler (`internal/stdlib/std`) and embedded in the `synod` binary; a drift test keeps the copy equal to this repository.
 
-Implements the Synod language specification v0.2.0: https://github.com/synodlang/dsl
+Implements the Synod language specification v0.2.1: https://github.com/synodlang/dsl
 
 Licensed under the [Apache License 2.0](LICENSE).
