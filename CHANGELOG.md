@@ -4,6 +4,10 @@ All notable changes to the Synod standard library. Versions share MAJOR.MINOR wi
 
 ## Unreleased
 
+## v0.2.1 — 2026-10-22
+
+Implements Synod 0.2; works with compiler v0.2.5.
+
 ### Added
 
 - `lesson.Ask [q] choosing [c]`: asks a question with 2 to 6 distinct, non-empty choices that Predict mode offers. Anything else fails with `bad-argument`.
