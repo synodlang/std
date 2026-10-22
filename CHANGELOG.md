@@ -4,6 +4,10 @@ All notable changes to the Synod standard library. Versions share MAJOR.MINOR wi
 
 ## Unreleased
 
+## v0.2.2 — 2026-10-22
+
+Implements Synod 0.2; works with compiler v0.2.6.
+
 ### Changed
 
 - Doc comments on `time.Every`, `lesson.Ask`, `lesson.Ask … choosing`, `lesson.Note`, `lesson.choices`, `look.Fade` and `look.Pulse`, equal to the catalog Meaning, byte for byte.
