@@ -4,6 +4,12 @@ All notable changes to the Synod standard library. Versions share MAJOR.MINOR wi
 
 ## Unreleased
 
+### Added
+
+- `lesson.Ask [q] choosing [c]`: asks a question with 2 to 6 distinct, non-empty choices that Predict mode offers. Anything else fails with `bad-argument`.
+- `Choices` field on the `lesson.Asked` record (empty for a plain `lesson.Ask`).
+- The unexported native `lesson.choices`, which checks the choices.
+
 ## v0.2.0 — 2026-10-22
 
 Implements Synod 0.2.
